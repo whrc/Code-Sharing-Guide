@@ -1,5 +1,8 @@
 # Bookdown
 
 ## Overview
+~ Bookdown is a useful tool for creating a guide for your code! ~
 
 ## Examples
+[LandTrendr Guide](https://emapr.github.io/LT-GEE/working-with-outputs.html)    
+[Soil Mapping Documentation](https://l-ramirez-lopez.github.io/VNIR_spectroscopy_for_robust_soil_mapping/)

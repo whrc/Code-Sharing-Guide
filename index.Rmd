@@ -5,8 +5,21 @@ site: bookdown::bookdown_site
 documentclass: book
 output:
   bookdown::gitbook: default
-  #bookdown::pdf_book: default
 ---
+
+<!--
+BOOKDOWN CHEATSHEET
+# Creates a new tab/section/chapter  
+## Creates a new subtab/section/chapter  
+* 2 or more stars around a word makes it **bold**  
+[title](link address) for linking websites
+![title](image file path) for inserting an image
+Add 4 or more spaces after a line to get the next line on a new one
+
+BOOKDOWN GUIDE
+https://bookdown.org/yihui/bookdown/
+-->
 
 # Open Source Code
 
+~ Summarize Nolan's previous SOB about open source code and the importance of it ~

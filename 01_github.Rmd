@@ -1,7 +1,12 @@
 # Github Tutorial
 
 ## Create a Repository
+~ Explain what repositories are and make one... 
+Online Github.com
+Gihub Desktop
+## Make a Commit
 
 ## Push to a Respository
 
 ## Create a Pull Request
+
