@@ -1,6 +1,6 @@
 ---
-title: "A Book"
-author: "Frida Gomam"
+title: "Code Sharing Guide"
+author: "Charlotte Rivard and Nolan Kitts"
 site: bookdown::bookdown_site
 documentclass: book
 output:
