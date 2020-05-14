@@ -1,6 +1,25 @@
 # Github Tutorial
 
-Nolan testing testing
+GitHub Desktop is an open source [Electron](https://electron.atom.io)-based
+GitHub app. It is written in [TypeScript](http://www.typescriptlang.org) and
+uses [React](https://facebook.github.io/react/).
+
+![GitHub Desktop screenshot - Windows](https://cloud.githubusercontent.com/assets/359239/26094502/a1f56d02-3a5d-11e7-8799-23c7ba5e5106.png)
+
+## Where can I get it?
+
+Download the official installer for your operating system:
+
+ - [macOS](https://central.github.com/deployments/desktop/desktop/latest/darwin)
+ - [Windows](https://central.github.com/deployments/desktop/desktop/latest/win32)
+ - [Windows machine-wide install](https://central.github.com/deployments/desktop/desktop/latest/win32?format=msi)
+
+You can install this alongside your existing GitHub Desktop for Mac or GitHub
+Desktop for Windows application.
+
+**NOTE**: there is no current migration path to import your existing
+repositories into the new application - you can drag-and-drop your repositories
+from disk onto the application to get started.
 
 ## Create a Repository
 ~ Explain what repositories are and make one... 
