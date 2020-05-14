@@ -20,8 +20,42 @@ BOOKDOWN GUIDE
 https://bookdown.org/yihui/bookdown/
 -->
 
-# Open Source Code
+# Open Science Recap
 
-~ Summarize Nolan's previous SOB about open source code and the importance of it ~
+*From Nolan's [March 27 SOB](https://prezi.com/view/5DEUVwi1GCEmFAJ5eZce/)*
 
-# Disclaimer:
+### Open Data {-}
+
+The idea that some data should be freely available to everyone to use and republish as they wish, without restrictions from copyright, patents or other mechanisms of control.
+
+### Open Source {-}
+
+Open-source software is a type of computer software in which source code is released under a license in which the copyright holder grants users the rights to study, change, and distribute the software to anyone and for any purpose. Open-source software may be developed in a collaborative public manner.
+
+### Open Methodology {-}
+
+Open methodology is conducted in the spirit of free and open-source software. Much like open-source schemes that are built around a source code that is made public, the central theme of open research is to make clear accounts of the methodology freely available via the internet, along with any data or results extracted or derived from them. This permits a massively distributed collaboration, and one in which anyone may participate at any level of the project.
+
+## But how do we practice open science? {-}
+
+Two commonly used tools that we will cover today are:
+
+![](https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png){width=200px}
+
+... for storing and sharing code and datasets, easy collaboration, and version control
+
+and
+
+![](https://bookdown.org/yihui/bookdown/images/logo.png){width=200px}
+
+... for writing books, reports, and software documentation
+
+using
+
+![](https://ulyngs.github.io/rmarkdown-workshop-2019/slides/figures/rmarkdown.png){width=200px}
+
+#### Disclaimer: {-}
+
+*We are by no means experts on the tools we're covering. We will be your guide and we can learn together.*
+
+![Let's get started!](https://miro.medium.com/max/1400/0*YawwWWRvQDU4ls2w.jpg){width=150}
