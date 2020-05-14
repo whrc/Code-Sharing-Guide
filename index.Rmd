@@ -56,6 +56,6 @@ using
 
 #### Disclaimer: {-}
 
-*We are by no means experts on the tools we're covering. We will be your guide and we can learn together.*
+*We are by no means experts on the tools we're covering. We will be your guides and we can learn together.*
 
 ![Let's get started!](https://miro.medium.com/max/1400/0*YawwWWRvQDU4ls2w.jpg){width=150}
