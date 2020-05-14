@@ -1,6 +1,12 @@
 # Github Tutorial
 
-Git is an open source, distributed version control system founded in command line interaction. This guide provides the day-to-day setup and commands to use Git locally and connect repositories to GitHub for a complete collaboration workflow.
+GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+## Getting Started
+
+[Create a GitHub account](https://github.com/)
+
+[Download Git](https://git-scm.com/downloads)
 
 ## Understanding terms & Processes descriptions of GitHub and Git
 
@@ -21,89 +27,26 @@ The connection of a local repository with one on GitHub. It permits revision his
 ### Pull Request
 A  feature on GitHub which provides conversation, line-by-line code review, change history analysis, and summaries of modified files.
 
-## Configuring
-The first thing to setup when using Git is two important fields about the user. This allows appropriate credit and traceability for project contributions.
+## Using GitHub
 
-```
-$ git config --global user.name "Mona Lisa Octocat"
-$ git config --global user.email "mona@github.com"
-```
+### Step 1. Create a Repository
 
-## Versioning Files
+A **repository** is usually used to organize a single project. Repositories can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs. We recommend including a *README*, or a file with information about your project. GitHub makes it easy to add one at the same time you create your new repository. *It also offers other common options such as a license file.*
 
-Versioning files begins by creating a repository on your GitHub account. File authoring and editing can be performed through the web interface or by acquiring the repository locally from the command line.
+Your `hello-world` repository can be a place where you store ideas, resources, or even share and discuss things with others.
 
-```
-$ git clone [url] [project-name]
-$ cd [project-name]
-```
+#### To create a new repository
 
-Repository contributions are commonly made through branches and commits focused on small pieces of work.
+In the upper right corner, next to your avatar or identicon, click  and then select New repository.
+Name your repository hello-world.
+Write a short description.
+Select Initialize this repository with a README.
 
-```
-git branch [name]
-git checkout [name]
-git add [file]
-git commit -m [commit message]
-```
-
-When the feature work reaches completion, the branch can be merged locally or pushed to GitHub for code review.
-
-```
-git checkout master
-git merge [branch]
-
-git push -u origin [branch]
-```
-
-As commits can be efficiently made, the state of any new, modified, or missing files can be verified and quickly validated.
-
-```
-$ git status
-$ git diff [modified-file]
-```
-
-## Integrating Changes
-Commits can be made against any branch and in any order. Commonly, this is performed against the  master branch as means of feature or bug-fix integration.
-
-```
-$ git checkout master
-$ git merge feature-enhancement
-$ git branch -d feature-enhancement
-```
-
-[PLACEHOLDER - Recursive Merge Diagram]
-
-The last step deletes the branch. Merges result in all commit history becoming traversible, and eliminating the need for the branch label to remain.
-
-
-## Sharing & Retrieving
-Sharing commit history requires only a destination repository, one on GitHub, and a single setup step.
-
-```
-$ git remote add origin [repo-url]
-$ git remote -v
-```
-
-[PLACEHOLDER - Local-Upstream Diagram]
-
-With a remote setup, and the traditional name of "origin" aliased to the URL, publishing local commits is simple.
-
-```
-$ git push origin [branch-name]
-```
-
-Retrieving changes from a shared repository and automatically merging in any new commits locally is performed in a multi-step operation run by one command.
-
-```
-$ git checkout [target-branch]
-$ git pull origin [upstream-branch]
-```
+[This quick tutorial will show you how to upload your first project to GitHub](https://lab.github.com/githubtraining/uploading-your-project-to-github)
 
 ## GitHub Desktop
 
-GitHub Desktop is an open source [Electron](https://electron.atom.io)-based
-GitHub app.
+GitHub Desktop is an open source GitHub app. Everything we just covered can be done in GitHub Desktop.
 
 ![GitHub Desktop screenshot - Windows](https://cloud.githubusercontent.com/assets/359239/26094502/a1f56d02-3a5d-11e7-8799-23c7ba5e5106.png)
 
@@ -113,19 +56,3 @@ Download the official installer for your operating system:
 
  - [macOS](https://central.github.com/deployments/desktop/desktop/latest/darwin)
  - [Windows](https://central.github.com/deployments/desktop/desktop/latest/win32)
- - [Windows machine-wide install](https://central.github.com/deployments/desktop/desktop/latest/win32?format=msi)
-
-You can install this alongside your existing GitHub Desktop for Mac or GitHub
-Desktop for Windows application.
-
-**NOTE**: there is no current migration path to import your existing
-repositories into the new application - you can drag-and-drop your repositories
-from disk onto the application to get started.
-
-## Create a Repository
-
-## Make a Commit
-
-## Push to a Respository
-
-## Create a Pull Request

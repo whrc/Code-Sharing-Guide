@@ -23,3 +23,5 @@ https://bookdown.org/yihui/bookdown/
 # Open Source Code
 
 ~ Summarize Nolan's previous SOB about open source code and the importance of it ~
+
+# Disclaimer:
