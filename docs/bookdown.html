@@ -21,7 +21,7 @@
   
   
 
-<meta name="author" content="Charlotte Rivard and Nolan Kitts" />
+<meta name="author" content="Charlotte Rivard (crivard@whrc.org) and Nolan Kitts (nkitts@whrc.org" />
 
 
 
@@ -51,6 +51,68 @@
 
 
 
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 </head>
 
@@ -91,11 +153,16 @@
 <li class="chapter" data-level="3.2" data-path="bookdown.html"><a href="bookdown.html#example-books"><i class="fa fa-check"></i><b>3.2</b> Example Books</a><ul>
 <li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html#landtrendr"><i class="fa fa-check"></i>LandTrendr</a></li>
 <li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html#soil-mapping"><i class="fa fa-check"></i>Soil Mapping</a></li>
+<li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html#mir-soil-predictions"><i class="fa fa-check"></i>MIR Soil Predictions</a></li>
 </ul></li>
-<li class="chapter" data-level="3.3" data-path="bookdown.html"><a href="bookdown.html#build-your-own-book"><i class="fa fa-check"></i><b>3.3</b> Build Your Own Book</a><ul>
-<li class="chapter" data-level="3.3.1" data-path="bookdown.html"><a href="bookdown.html#demo-book"><i class="fa fa-check"></i><b>3.3.1</b> Demo Book</a></li>
+<li class="chapter" data-level="3.3" data-path="bookdown.html"><a href="bookdown.html#getting-started-1"><i class="fa fa-check"></i><b>3.3</b> Getting Started</a><ul>
+<li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html#download-an-example"><i class="fa fa-check"></i>Download an Example</a></li>
+<li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html#install-rstudio"><i class="fa fa-check"></i>Install RStudio</a></li>
+<li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html#install-bookdown"><i class="fa fa-check"></i>Install Bookdown</a></li>
+<li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html#build-the-book"><i class="fa fa-check"></i>Build the Book</a></li>
 <li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html#r-code"><i class="fa fa-check"></i>R Code</a></li>
 </ul></li>
+<li class="chapter" data-level="3.4" data-path="bookdown.html"><a href="bookdown.html#publishing-to-the-web"><i class="fa fa-check"></i><b>3.4</b> Publishing to the Web</a></li>
 </ul></li>
 </ul>
 
@@ -106,7 +173,7 @@
       <div class="body-inner">
         <div class="book-header" role="navigation">
           <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Code Sharing Guide</a>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"><a href="https://github.com/whrc/Code-Sharing-Guide">Code Sharing Guide</a></a>
           </h1>
         </div>
 
@@ -116,36 +183,109 @@
             <section class="normal" id="section-">
 <div id="bookdown" class="section level1">
 <h1><span class="header-section-number">3</span> Bookdown</h1>
+<p><img src="bookdwn_logo.png" /></p>
 <div id="what-is-bookdown" class="section level2">
 <h2><span class="header-section-number">3.1</span> What is Bookdown?</h2>
-<p><strong>Bookdown</strong> is a useful R package for making digital books in HTML, PDF or E-book format. It is what we used to create this Code-Sharing-Guide! While you can use it make any type of book you like, it is especially useful for code documentation, since it allows you to seamlessly integrate code into your book. HTML books can become easy yet elegant websites to share your code with the world!</p>
-<p>The creators of bookdown created a very thorough guide of the tool, showing how many possibilities there are!
-<a href="%22https://bookdown.org/yihui/bookdown/%22">Bookdown Documentation Guide</a></p>
+<p><strong>Bookdown</strong> is a useful R package for making digital books in HTML, PDF or E-book format. It is what we used to create this Code-Sharing-Guide! While you can use it make any type of book you like, it is especially useful for code documentation since it allows you to seamlessly integrate code into your book. HTML books can become easy yet elegant websites to share your code with the world.</p>
+<p>The creators of bookdown made a very thorough guide of the tool, showing how many possibilities there are: <a href="%22https://bookdown.org/yihui/bookdown/%22"><strong>Bookdown Documentation Guide</strong></a></p>
 </div>
 <div id="example-books" class="section level2">
 <h2><span class="header-section-number">3.2</span> Example Books</h2>
-<p>The following are examples of how other scientists harnessed the power of Bookdown to create</p>
+<p>The following are examples of how other scientists harnessed the power of Bookdown to document their research projects.</p>
 <div id="landtrendr" class="section level3 unnumbered">
 <h3>LandTrendr</h3>
-<p>This is a guide by Oregon State explaining LandTrendr, an change detection method they designed that can be used in earth engine. Notice that while the book is built within RStudio, their code is in python. Though only R code can be run within your book (showing the outputs), bookdown can still be used to document code of other languages.
-<a href="https://emapr.github.io/LT-GEE/working-with-outputs.html">LandTrendr Guide</a></p>
+<p>This is a guide by Oregon State explaining LandTrendr, a change detection method they designed that can be used in earth engine. Notice that while the book is built within RStudio, their code is in python. Though only R code can be run within your book (showing the outputs), bookdown can still be used to document code of other languages.<br />
+<a href="https://emapr.github.io/LT-GEE/index.html"><strong>LandTrendr Guide</strong></a></p>
+<p><img src="landtrendr.png" /></p>
 </div>
 <div id="soil-mapping" class="section level3 unnumbered">
 <h3>Soil Mapping</h3>
-<p><a href="https://l-ramirez-lopez.github.io/VNIR_spectroscopy_for_robust_soil_mapping/">Soil Mapping Documentation</a></p>
+<p>This documentation by Leo Ramirez on soil mapping, is an example of how R-code
+can be intergrated into your book.<br />
+<a href="https://l-ramirez-lopez.github.io/VNIR_spectroscopy_for_robust_soil_mapping/"><strong>Soil Mapping Documentation</strong></a></p>
+<p>This is an example of a textbook written with bookdown. It explains Soil Mapping and is written by Tom Hengel.
+<a href="https://soilmapper.org/"><strong>Soil Mapper Textbook</strong></a></p>
+<p><img src="hengel.png" /></p>
+</div>
+<div id="mir-soil-predictions" class="section level3 unnumbered">
+<h3>MIR Soil Predictions</h3>
+<p>At the center, we are currently working on a site to document our process of predicting soil properties using Mid-Infrared Spectroscopy.<br />
+<a href="https://whrc.github.io/Soil-Predictions-MIR/index.html"><strong>MIR Soil Predictions</strong></a></p>
+<p><img src="soil-pic.png" /></p>
 </div>
 </div>
-<div id="build-your-own-book" class="section level2">
-<h2><span class="header-section-number">3.3</span> Build Your Own Book</h2>
-<div id="demo-book" class="section level3">
-<h3><span class="header-section-number">3.3.1</span> Demo Book</h3>
-<p>Start out by downloading</p>
+<div id="getting-started-1" class="section level2">
+<h2><span class="header-section-number">3.3</span> Getting Started</h2>
+<p>(Adapted from Bookdown Documentation: <a href="https://bookdown.org/yihui/bookdown/get-started.html">Getting Started</a>)</p>
+<div id="download-an-example" class="section level3 unnumbered">
+<h3>Download an Example</h3>
+<p>The best way to get started is to download an example book and experiment with making changes.</p>
+<p>As stated earlier, this guide itself is a bookdown book and it’s source files can be downloaded from the WHRC Github account: <a href="https://github.com/whrc/Code-Sharing-Guide"><strong>Code-Sharing-Guide Github Repository</strong></a></p>
+<p>Bookdown has also provided a few template books:
+<a href="https://github.com/yihui/bookdown-minimal"><strong>Bookdown Minimal</strong></a>,
+contains the basic skeleton of a bookdown book while,
+<a href="https://github.com/rstudio/bookdown-demo"><strong>Bookdown Demo</strong></a> has more features, such as cross references and R-code.</p>
+</div>
+<div id="install-rstudio" class="section level3 unnumbered">
+<h3>Install RStudio</h3>
+<p>Download the latest version if your RStudio version is lower than 1.0.0<br />
+<a href="https://rstudio.com/products/rstudio/download/">Download RStudio</a><br />
+<img src="rstud_blue.png" /></p>
+</div>
+<div id="install-bookdown" class="section level3 unnumbered">
+<h3>Install Bookdown</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="co"># stable version on CRAN</span></a>
+<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="kw">install.packages</span>(<span class="st">&#39;bookdown&#39;</span>)</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"><span class="co"># or development version on GitHub</span></a>
+<a class="sourceLine" id="cb1-4" data-line-number="4"><span class="co"># devtools::install_github(&#39;rstudio/bookdown&#39;)</span></a></code></pre></div>
+</div>
+<div id="build-the-book" class="section level3 unnumbered">
+<h3>Build the Book</h3>
+<div id="open-up-the-r-project-within-the-books-folder" class="section level4 unnumbered">
+<h4>1- Open up the R-Project within the book’s folder</h4>
+<p><img src="bkdwn_prj.png" /></p>
+<p>Within the folder you will see several R-Markdown files, indicated by the extension .Rmd</p>
+<p>The index file has information about the book as a whole and how it will be produced. It can also contain the Introduction to the book. Other .Rmd files will be labeled starting with 01, 02, etc, in the order you would like them added to the book.</p>
+<p>If you open an R-Markdown file, it should have one or more headers…<br />
+<code>#</code> for major tabs/chapters/sections of the book
+<code>##</code> for subtabs
+… and so on.</p>
+</div>
+<div id="build-the-book-using-the-build-tab-usually-in-the-upper-right-hand-corner" class="section level4 unnumbered">
+<h4>2- Build the book using the ‘Build’ Tab, usually in the upper right hand corner</h4>
+<p><img src="build.png" /></p>
+<p>When the book it built, it will “knit” these R-Markdown files into the desired output format (HTML, PDF or E-Book). The book should pop-up on your screen once it is loaded.</p>
+</div>
 </div>
 <div id="r-code" class="section level3 unnumbered">
 <h3>R Code</h3>
-<p><a href="https://yihui.org/knitr/options/#code-chunk" class="uri">https://yihui.org/knitr/options/#code-chunk</a></p>
-
+<p>For help with the syntax within the rmarkdown files, see the documentation for knitr and rmarkdown:</p>
+<p><a href="https://yihui.org/knitr/options/#code-chunk"><strong>knitr documentation</strong></a></p>
+<p><a href="https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf"><strong>rmarkdown cheatsheet</strong></a></p>
+<p><img src="rchunk.png" /></p>
+<p><code>{r}</code> Declares an R-Code Chunk<br />
+<code>#</code> Creates a new tab/section/chapter<br />
+<code>##</code> Creates a new subtab/section/chapter<br />
+<code>**Word**</code> 2 or more stars around a word makes it <strong>bold</strong><br />
+<code>[title](link address)</code> for linking websites<br />
+<code>![title](image file path)</code> for inserting an image<br />
+Add 4 or more spaces to get a new line</p>
 </div>
+</div>
+<div id="publishing-to-the-web" class="section level2">
+<h2><span class="header-section-number">3.4</span> Publishing to the Web</h2>
+<p>Bookdown books can be hosted by either Github or Bookdown.com<br />
+Detailed instructions for how to publish your book to Github (as we did with this book) can be found here:<br />
+<a href="https://bookdown.org/yihui/bookdown/github.html"><strong>Publish to Github</strong></a></p>
+<p>For a quick way to publish to Github, use the repository for this guide as a template:<br />
+<a href="https://github.com/whrc/Code-Sharing-Guide/generate"><strong>Create New Repository from Code-Sharing-Guide</strong></a></p>
+<p><img src="temp.png" /></p>
+<p>To see the website made your repository, go to <strong>Settings</strong> in the top right corner of your repository page.</p>
+<p><img src="set.png" /><br />
+Scroll down to Github Pages and change Source: None, to ‘master branch /docs folder’. For this particular example, the index.html file, used to build the website is located in the docs folder. The .nojekyll file located in the docs folder, suppresses Github Pages from creating the website with Jekyll, and allows the bookdown file to load appropriately.</p>
+<p><img src="gp.png" /><br />
+You can then edit the site for your project by cloning/downloading the repository to your computer, making changes and pushing those back to Github. If you are happy with the formatting of this document, all that will have to change is the .Rmd files in the folder. It is important to note that <strong>the book must be built again</strong> after changes for your .Rmd files are made, to see those changes on the website.</p>
+
 </div>
 </div>
             </section>

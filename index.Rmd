@@ -1,12 +1,14 @@
 ---
-title: "Code Sharing Guide"
-author: "Charlotte Rivard and Nolan Kitts"
+title: "[Code Sharing Guide](https://github.com/whrc/Code-Sharing-Guide)"
+author: "Charlotte Rivard (crivard@whrc.org) and Nolan Kitts (nkitts@whrc.org"
 site: bookdown::bookdown_site
 documentclass: book
 #output:
   #bookdown::gitbook: default
 ---
+Source Code for this guide can be found here: [](https://github.com/whrc/Code-Sharing-Guide)     
 
+Email crivard@whrc.org or nkitts@whrc.org with any questions!
 <!--
 BOOKDOWN CHEATSHEET
 # Creates a new tab/section/chapter  
@@ -21,7 +23,8 @@ https://bookdown.org/yihui/bookdown/
 -->
 
 # Open Science Recap
-
+![](open_science.jpeg)
+       
 *From Nolan's [March 27 SOB](https://prezi.com/view/5DEUVwi1GCEmFAJ5eZce/)*
 
 ### Open Data {-}
