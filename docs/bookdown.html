@@ -72,7 +72,7 @@
 </ul></li>
 <li class="chapter" data-level="2" data-path="github-tutorial.html"><a href="github-tutorial.html"><i class="fa fa-check"></i><b>2</b> Github Tutorial</a><ul>
 <li class="chapter" data-level="2.1" data-path="github-tutorial.html"><a href="github-tutorial.html#getting-started"><i class="fa fa-check"></i><b>2.1</b> Getting Started</a></li>
-<li class="chapter" data-level="2.2" data-path="github-tutorial.html"><a href="github-tutorial.html#understanding-terms-processes-descriptions-of-github-and-git"><i class="fa fa-check"></i><b>2.2</b> Understanding terms &amp; Processes descriptions of GitHub and Git</a><ul>
+<li class="chapter" data-level="2.2" data-path="github-tutorial.html"><a href="github-tutorial.html#github-jargon"><i class="fa fa-check"></i><b>2.2</b> Github Jargon</a><ul>
 <li class="chapter" data-level="2.2.1" data-path="github-tutorial.html"><a href="github-tutorial.html#repository"><i class="fa fa-check"></i><b>2.2.1</b> Repository</a></li>
 <li class="chapter" data-level="2.2.2" data-path="github-tutorial.html"><a href="github-tutorial.html#commit"><i class="fa fa-check"></i><b>2.2.2</b> Commit</a></li>
 <li class="chapter" data-level="2.2.3" data-path="github-tutorial.html"><a href="github-tutorial.html#branch"><i class="fa fa-check"></i><b>2.2.3</b> Branch</a></li>
@@ -87,8 +87,15 @@
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="bookdown.html"><a href="bookdown.html"><i class="fa fa-check"></i><b>3</b> Bookdown</a><ul>
-<li class="chapter" data-level="3.1" data-path="bookdown.html"><a href="bookdown.html#overview"><i class="fa fa-check"></i><b>3.1</b> Overview</a></li>
-<li class="chapter" data-level="3.2" data-path="bookdown.html"><a href="bookdown.html#examples"><i class="fa fa-check"></i><b>3.2</b> Examples</a></li>
+<li class="chapter" data-level="3.1" data-path="bookdown.html"><a href="bookdown.html#what-is-bookdown"><i class="fa fa-check"></i><b>3.1</b> What is Bookdown?</a></li>
+<li class="chapter" data-level="3.2" data-path="bookdown.html"><a href="bookdown.html#example-books"><i class="fa fa-check"></i><b>3.2</b> Example Books</a><ul>
+<li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html#landtrendr"><i class="fa fa-check"></i>LandTrendr</a></li>
+<li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html#soil-mapping"><i class="fa fa-check"></i>Soil Mapping</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="bookdown.html"><a href="bookdown.html#build-your-own-book"><i class="fa fa-check"></i><b>3.3</b> Build Your Own Book</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="bookdown.html"><a href="bookdown.html#demo-book"><i class="fa fa-check"></i><b>3.3.1</b> Demo Book</a></li>
+<li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html#r-code"><i class="fa fa-check"></i>R Code</a></li>
+</ul></li>
 </ul></li>
 </ul>
 
@@ -109,15 +116,36 @@
             <section class="normal" id="section-">
 <div id="bookdown" class="section level1">
 <h1><span class="header-section-number">3</span> Bookdown</h1>
-<div id="overview" class="section level2">
-<h2><span class="header-section-number">3.1</span> Overview</h2>
-<p>~ Bookdown is a useful tool for creating a guide for your code! ~</p>
+<div id="what-is-bookdown" class="section level2">
+<h2><span class="header-section-number">3.1</span> What is Bookdown?</h2>
+<p><strong>Bookdown</strong> is a useful R package for making digital books in HTML, PDF or E-book format. It is what we used to create this Code-Sharing-Guide! While you can use it make any type of book you like, it is especially useful for code documentation, since it allows you to seamlessly integrate code into your book. HTML books can become easy yet elegant websites to share your code with the world!</p>
+<p>The creators of bookdown created a very thorough guide of the tool, showing how many possibilities there are!
+<a href="%22https://bookdown.org/yihui/bookdown/%22">Bookdown Documentation Guide</a></p>
 </div>
-<div id="examples" class="section level2">
-<h2><span class="header-section-number">3.2</span> Examples</h2>
-<p><a href="https://emapr.github.io/LT-GEE/working-with-outputs.html">LandTrendr Guide</a><br />
-<a href="https://l-ramirez-lopez.github.io/VNIR_spectroscopy_for_robust_soil_mapping/">Soil Mapping Documentation</a></p>
+<div id="example-books" class="section level2">
+<h2><span class="header-section-number">3.2</span> Example Books</h2>
+<p>The following are examples of how other scientists harnessed the power of Bookdown to create</p>
+<div id="landtrendr" class="section level3 unnumbered">
+<h3>LandTrendr</h3>
+<p>This is a guide by Oregon State explaining LandTrendr, an change detection method they designed that can be used in earth engine. Notice that while the book is built within RStudio, their code is in python. Though only R code can be run within your book (showing the outputs), bookdown can still be used to document code of other languages.
+<a href="https://emapr.github.io/LT-GEE/working-with-outputs.html">LandTrendr Guide</a></p>
+</div>
+<div id="soil-mapping" class="section level3 unnumbered">
+<h3>Soil Mapping</h3>
+<p><a href="https://l-ramirez-lopez.github.io/VNIR_spectroscopy_for_robust_soil_mapping/">Soil Mapping Documentation</a></p>
+</div>
+</div>
+<div id="build-your-own-book" class="section level2">
+<h2><span class="header-section-number">3.3</span> Build Your Own Book</h2>
+<div id="demo-book" class="section level3">
+<h3><span class="header-section-number">3.3.1</span> Demo Book</h3>
+<p>Start out by downloading</p>
+</div>
+<div id="r-code" class="section level3 unnumbered">
+<h3>R Code</h3>
+<p><a href="https://yihui.org/knitr/options/#code-chunk" class="uri">https://yihui.org/knitr/options/#code-chunk</a></p>
 
+</div>
 </div>
 </div>
             </section>
@@ -152,7 +180,7 @@ gitbook.start({
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
-"theme": "white",
+"theme": "night",
 "family": "sans",
 "size": 2
 },

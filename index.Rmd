@@ -3,8 +3,8 @@ title: "Code Sharing Guide"
 author: "Charlotte Rivard and Nolan Kitts"
 site: bookdown::bookdown_site
 documentclass: book
-output:
-  bookdown::gitbook: default
+#output:
+  #bookdown::gitbook: default
 ---
 
 <!--

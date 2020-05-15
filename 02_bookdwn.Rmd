@@ -1,8 +1,34 @@
 # Bookdown
 
-## Overview
-~ Bookdown is a useful tool for creating a guide for your code! ~
+## What is Bookdown?
+**Bookdown** is a useful R package for making digital books in HTML, PDF or E-book format. It is what we used to create this Code-Sharing-Guide! While you can use it make any type of book you like, it is especially useful for code documentation, since it allows you to seamlessly integrate code into your book. HTML books can become easy yet elegant websites to share your code with the world!
 
-## Examples
-[LandTrendr Guide](https://emapr.github.io/LT-GEE/working-with-outputs.html)    
+
+
+The creators of bookdown created a very thorough guide of the tool, showing how many possibilities there are!
+[Bookdown Documentation Guide]("https://bookdown.org/yihui/bookdown/")
+
+## Example Books
+The following are examples of how other scientists harnessed the power of Bookdown to create 
+
+### LandTrendr {-}
+This is a guide by Oregon State explaining LandTrendr, an change detection method they designed that can be used in earth engine. Notice that while the book is built within RStudio, their code is in python. Though only R code can be run within your book (showing the outputs), bookdown can still be used to document code of other languages.
+[LandTrendr Guide](https://emapr.github.io/LT-GEE/working-with-outputs.html)   
+
+### Soil Mapping {-}
+
 [Soil Mapping Documentation](https://l-ramirez-lopez.github.io/VNIR_spectroscopy_for_robust_soil_mapping/)
+
+## Build Your Own Book
+
+### Demo Book
+Start out by downloading 
+
+### R Code {-}
+
+https://yihui.org/knitr/options/#code-chunk
+
+
+
+
+

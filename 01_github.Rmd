@@ -8,7 +8,7 @@ GitHub is a code hosting platform for version control and collaboration. It lets
 
 [Download Git](https://git-scm.com/downloads)
 
-## Understanding terms & Processes descriptions of GitHub and Git
+## Github Jargon
 
 With a language all its own, this quick guide to common terms of GitHub and Git will have you collaborating in no time.
 
