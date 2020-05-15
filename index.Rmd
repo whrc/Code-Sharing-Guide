@@ -1,6 +1,6 @@
 ---
 title: "[Code Sharing Guide](https://github.com/whrc/Code-Sharing-Guide)"
-author: "Charlotte Rivard (crivard@whrc.org) and Nolan Kitts (nkitts@whrc.org"
+author: "Charlotte Rivard (crivard@whrc.org) and Nolan Kitts (nkitts@whrc.org)"
 site: bookdown::bookdown_site
 documentclass: book
 #output:
@@ -31,7 +31,7 @@ Open methodology is conducted in the spirit of free and open-source software. Mu
 
 Two commonly used tools that we will cover today are:
 
-![](https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png){width=200px}
+![](https://www.ateamindia.com/wp-content/uploads/2019/03/maxresdefault.jpg){width=250px}
 
 ... for storing and sharing code and datasets, easy collaboration, and version control
 

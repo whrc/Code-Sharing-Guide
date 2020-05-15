@@ -21,7 +21,7 @@
   
   
 
-<meta name="author" content="Charlotte Rivard (crivard@whrc.org) and Nolan Kitts (nkitts@whrc.org" />
+<meta name="author" content="Charlotte Rivard (crivard@whrc.org) and Nolan Kitts (nkitts@whrc.org)" />
 
 
 
@@ -68,7 +68,7 @@ a.sourceLine { text-indent: -1em; padding-left: 1em; }
 pre.numberSource a.sourceLine
   { position: relative; left: -4em; }
 pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
+  { content: attr(title);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
     border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
@@ -133,19 +133,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#open-science-in-practice"><i class="fa fa-check"></i>Open Science in Practice</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="github-tutorial.html"><a href="github-tutorial.html"><i class="fa fa-check"></i><b>2</b> Github Tutorial</a><ul>
-<li class="chapter" data-level="2.1" data-path="github-tutorial.html"><a href="github-tutorial.html#getting-started"><i class="fa fa-check"></i><b>2.1</b> Getting Started</a></li>
-<li class="chapter" data-level="2.2" data-path="github-tutorial.html"><a href="github-tutorial.html#github-jargon"><i class="fa fa-check"></i><b>2.2</b> Github Jargon</a><ul>
-<li class="chapter" data-level="2.2.1" data-path="github-tutorial.html"><a href="github-tutorial.html#repository"><i class="fa fa-check"></i><b>2.2.1</b> Repository</a></li>
-<li class="chapter" data-level="2.2.2" data-path="github-tutorial.html"><a href="github-tutorial.html#commit"><i class="fa fa-check"></i><b>2.2.2</b> Commit</a></li>
-<li class="chapter" data-level="2.2.3" data-path="github-tutorial.html"><a href="github-tutorial.html#branch"><i class="fa fa-check"></i><b>2.2.3</b> Branch</a></li>
-<li class="chapter" data-level="2.2.4" data-path="github-tutorial.html"><a href="github-tutorial.html#remote"><i class="fa fa-check"></i><b>2.2.4</b> Remote</a></li>
-<li class="chapter" data-level="2.2.5" data-path="github-tutorial.html"><a href="github-tutorial.html#pull-request"><i class="fa fa-check"></i><b>2.2.5</b> Pull Request</a></li>
+<li class="chapter" data-level="" data-path="github-tutorial.html"><a href="github-tutorial.html#getting-started"><i class="fa fa-check"></i>Getting Started</a></li>
+<li class="chapter" data-level="" data-path="github-tutorial.html"><a href="github-tutorial.html#github-jargon"><i class="fa fa-check"></i>Github Jargon</a><ul>
+<li class="chapter" data-level="" data-path="github-tutorial.html"><a href="github-tutorial.html#repository"><i class="fa fa-check"></i>Repository</a></li>
+<li class="chapter" data-level="" data-path="github-tutorial.html"><a href="github-tutorial.html#commit"><i class="fa fa-check"></i>Commit</a></li>
+<li class="chapter" data-level="" data-path="github-tutorial.html"><a href="github-tutorial.html#branch"><i class="fa fa-check"></i>Branch</a></li>
+<li class="chapter" data-level="" data-path="github-tutorial.html"><a href="github-tutorial.html#remote"><i class="fa fa-check"></i>Remote</a></li>
+<li class="chapter" data-level="" data-path="github-tutorial.html"><a href="github-tutorial.html#pull-request"><i class="fa fa-check"></i>Pull Request</a></li>
 </ul></li>
-<li class="chapter" data-level="2.3" data-path="github-tutorial.html"><a href="github-tutorial.html#using-github"><i class="fa fa-check"></i><b>2.3</b> Using GitHub</a><ul>
-<li class="chapter" data-level="2.3.1" data-path="github-tutorial.html"><a href="github-tutorial.html#step-1.-create-a-repository"><i class="fa fa-check"></i><b>2.3.1</b> Step 1. Create a Repository</a></li>
-</ul></li>
-<li class="chapter" data-level="2.4" data-path="github-tutorial.html"><a href="github-tutorial.html#github-desktop"><i class="fa fa-check"></i><b>2.4</b> GitHub Desktop</a><ul>
-<li class="chapter" data-level="2.4.1" data-path="github-tutorial.html"><a href="github-tutorial.html#where-can-i-get-it"><i class="fa fa-check"></i><b>2.4.1</b> Where can I get it?</a></li>
+<li class="chapter" data-level="" data-path="github-tutorial.html"><a href="github-tutorial.html#using-github-1"><i class="fa fa-check"></i>Using GitHub </a><ul>
+<li class="chapter" data-level="" data-path="github-tutorial.html"><a href="github-tutorial.html#step-1.-create-a-repository"><i class="fa fa-check"></i>Step 1. Create a Repository</a></li>
+<li class="chapter" data-level="" data-path="github-tutorial.html"><a href="github-tutorial.html#step-2.-clone-repository"><i class="fa fa-check"></i>Step 2. Clone Repository</a></li>
+<li class="chapter" data-level="" data-path="github-tutorial.html"><a href="github-tutorial.html#step-3.-commit-a-change-in-your-project"><i class="fa fa-check"></i>Step 3. Commit a change in your project</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="bookdown.html"><a href="bookdown.html"><i class="fa fa-check"></i><b>3</b> Bookdown</a><ul>
@@ -239,10 +238,10 @@ contains the basic skeleton of a bookdown book while,
 </div>
 <div id="install-bookdown" class="section level3 unnumbered">
 <h3>Install Bookdown</h3>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="co"># stable version on CRAN</span></a>
-<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="kw">install.packages</span>(<span class="st">&#39;bookdown&#39;</span>)</a>
-<a class="sourceLine" id="cb1-3" data-line-number="3"><span class="co"># or development version on GitHub</span></a>
-<a class="sourceLine" id="cb1-4" data-line-number="4"><span class="co"># devtools::install_github(&#39;rstudio/bookdown&#39;)</span></a></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="co"># stable version on CRAN</span></a>
+<a class="sourceLine" id="cb1-2" title="2"><span class="kw">install.packages</span>(<span class="st">&#39;bookdown&#39;</span>)</a>
+<a class="sourceLine" id="cb1-3" title="3"><span class="co"># or development version on GitHub</span></a>
+<a class="sourceLine" id="cb1-4" title="4"><span class="co"># devtools::install_github(&#39;rstudio/bookdown&#39;)</span></a></code></pre></div>
 </div>
 <div id="build-the-book" class="section level3 unnumbered">
 <h3>Build the Book</h3>
@@ -310,6 +309,12 @@ Detailed instructions for how to publish your book to Github (as we did with thi
 </div>
 </div>
 </div>
+
+
+
+
+
+
             </section>
 
           </div>
