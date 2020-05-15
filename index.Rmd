@@ -6,21 +6,9 @@ documentclass: book
 #output:
   #bookdown::gitbook: default
 ---
-Source Code for this guide can be found here: [](https://github.com/whrc/Code-Sharing-Guide)     
 
-Email crivard@whrc.org or nkitts@whrc.org with any questions!
-<!--
-BOOKDOWN CHEATSHEET
-# Creates a new tab/section/chapter  
-## Creates a new subtab/section/chapter  
-* 2 or more stars around a word makes it **bold**  
-[title](link address) for linking websites
-![title](image file path) for inserting an image
-Add 4 or more spaces after a line to get the next line on a new one
+Email crivard@whrc.org or nkitts@whrc.org with any questions!      
 
-BOOKDOWN GUIDE
-https://bookdown.org/yihui/bookdown/
--->
 
 # Open Science Recap
 ![](open_science.jpeg)
@@ -39,7 +27,7 @@ Open-source software is a type of computer software in which source code is rele
 
 Open methodology is conducted in the spirit of free and open-source software. Much like open-source schemes that are built around a source code that is made public, the central theme of open research is to make clear accounts of the methodology freely available via the internet, along with any data or results extracted or derived from them. This permits a massively distributed collaboration, and one in which anyone may participate at any level of the project.
 
-## But how do we practice open science? {-}
+## Open Science in Practice {-}
 
 Two commonly used tools that we will cover today are:
 
