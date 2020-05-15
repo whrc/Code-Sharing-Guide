@@ -105,18 +105,35 @@ Bookdown books can be hosted by either Github or Bookdown.com
 Detailed instructions for how to publish your book to Github (as we did with this book) can be found here:      
 [**Publish to Github**](https://bookdown.org/yihui/bookdown/github.html)     
 
-For a quick way to publish to Github, use the repository for this guide as a template:     
+***For a quick way to publish to Github, use the repository for this guide as a template... ***       
+
+### 1- Create a repository from this template {-}
 [**Create New Repository from Code-Sharing-Guide**](https://github.com/whrc/Code-Sharing-Guide/generate)     
 
 ![](temp.png)     
 
-To see the website made your repository, go to **Settings** in the top right corner of your repository page.     
+### 2- Go to Settings {-}     
+To see the website made your repository, go to **Settings** in the top right corner of your repository page   
 
 ![](set.png)        
 
-Scroll down to Github Pages and change Source: **'None', to 'master branch /docs folder'**. For this particular example, the index.html file, used to build the website is located in the docs folder. The .nojekyll file located in the docs folder, suppresses Github Pages from creating the website with Jekyll, and allows the bookdown file to load appropriately. 
 
-![](gp.png)      
+### 3- Update Github Pages Setting {-}     
+Scroll down to Github Pages and change Source: **'None', to 'master branch /docs folder'**. For this particular example, the index.html file, used to build the website is located in the docs folder. The .nojekyll file located in the docs folder, suppresses Github Pages from creating the website with Jekyll, and allows the bookdown file to load appropriately.      
+
+The link to your website will appear- something like...         
+https://user-name.github.io/repo-name/
+
+If it does not work, try adding `index.html to the end...          
+https://user-name.github.io/repo-name/index.html
+
+or delete the README file of the repo (for some reason this can interfere)     
+
+
+![](gp.png)       
+
+### 4- Edit the site to make your own book {-}     
+
 You can then edit the site for your project by cloning/downloading the repository to your computer, making changes and pushing those back to Github. If you are happy with the formatting of this document, all that will have to change is the .Rmd files in the folder. It is important to note that **the book must be built again** after changes for your .Rmd files are made, to see those changes on the website. 
 
 

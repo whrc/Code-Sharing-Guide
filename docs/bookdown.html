@@ -162,7 +162,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html#build-the-book"><i class="fa fa-check"></i>Build the Book</a></li>
 <li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html#r-code"><i class="fa fa-check"></i>R Code</a></li>
 </ul></li>
-<li class="chapter" data-level="3.4" data-path="bookdown.html"><a href="bookdown.html#publishing-to-the-web"><i class="fa fa-check"></i><b>3.4</b> Publishing to the Web</a></li>
+<li class="chapter" data-level="3.4" data-path="bookdown.html"><a href="bookdown.html#publishing-to-the-web"><i class="fa fa-check"></i><b>3.4</b> Publishing to the Web</a><ul>
+<li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html#create-a-repository-from-this-template"><i class="fa fa-check"></i>1- Create a repository from this template</a></li>
+<li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html#go-to-settings"><i class="fa fa-check"></i>2- Go to Settings</a></li>
+<li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html#update-github-pages-setting"><i class="fa fa-check"></i>3- Update Github Pages Setting</a></li>
+<li class="chapter" data-level="" data-path="bookdown.html"><a href="bookdown.html#edit-the-site-to-make-your-own-book"><i class="fa fa-check"></i>4- Edit the site to make your own book</a></li>
+</ul></li>
 </ul></li>
 </ul>
 
@@ -277,15 +282,32 @@ Add 4 or more spaces to get a new line</p>
 <p>Bookdown books can be hosted by either Github or Bookdown.com<br />
 Detailed instructions for how to publish your book to Github (as we did with this book) can be found here:<br />
 <a href="https://bookdown.org/yihui/bookdown/github.html"><strong>Publish to Github</strong></a></p>
-<p>For a quick way to publish to Github, use the repository for this guide as a template:<br />
-<a href="https://github.com/whrc/Code-Sharing-Guide/generate"><strong>Create New Repository from Code-Sharing-Guide</strong></a></p>
+<p><strong><em>For a quick way to publish to Github, use the repository for this guide as a template… </em></strong></p>
+<div id="create-a-repository-from-this-template" class="section level3 unnumbered">
+<h3>1- Create a repository from this template</h3>
+<p><a href="https://github.com/whrc/Code-Sharing-Guide/generate"><strong>Create New Repository from Code-Sharing-Guide</strong></a></p>
 <p><img src="temp.png" /></p>
-<p>To see the website made your repository, go to <strong>Settings</strong> in the top right corner of your repository page.</p>
-<p><img src="set.png" /><br />
-Scroll down to Github Pages and change Source: None, to ‘master branch /docs folder’. For this particular example, the index.html file, used to build the website is located in the docs folder. The .nojekyll file located in the docs folder, suppresses Github Pages from creating the website with Jekyll, and allows the bookdown file to load appropriately.</p>
-<p><img src="gp.png" /><br />
-You can then edit the site for your project by cloning/downloading the repository to your computer, making changes and pushing those back to Github. If you are happy with the formatting of this document, all that will have to change is the .Rmd files in the folder. It is important to note that <strong>the book must be built again</strong> after changes for your .Rmd files are made, to see those changes on the website.</p>
+</div>
+<div id="go-to-settings" class="section level3 unnumbered">
+<h3>2- Go to Settings</h3>
+<p>To see the website made your repository, go to <strong>Settings</strong> in the top right corner of your repository page</p>
+<p><img src="set.png" /></p>
+</div>
+<div id="update-github-pages-setting" class="section level3 unnumbered">
+<h3>3- Update Github Pages Setting</h3>
+<p>Scroll down to Github Pages and change Source: <strong>‘None’, to ‘master branch /docs folder’</strong>. For this particular example, the index.html file, used to build the website is located in the docs folder. The .nojekyll file located in the docs folder, suppresses Github Pages from creating the website with Jekyll, and allows the bookdown file to load appropriately.</p>
+<p>The link to your website will appear- something like…<br />
+<a href="https://user-name.github.io/repo-name/" class="uri">https://user-name.github.io/repo-name/</a></p>
+<p>If it does not work, try adding `index.html to the end…<br />
+<a href="https://user-name.github.io/repo-name/index.html" class="uri">https://user-name.github.io/repo-name/index.html</a></p>
+<p>or delete the README file of the repo (for some reason this can interfere)</p>
+<p><img src="gp.png" /></p>
+</div>
+<div id="edit-the-site-to-make-your-own-book" class="section level3 unnumbered">
+<h3>4- Edit the site to make your own book</h3>
+<p>You can then edit the site for your project by cloning/downloading the repository to your computer, making changes and pushing those back to Github. If you are happy with the formatting of this document, all that will have to change is the .Rmd files in the folder. It is important to note that <strong>the book must be built again</strong> after changes for your .Rmd files are made, to see those changes on the website.</p>
 
+</div>
 </div>
 </div>
             </section>
